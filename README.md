@@ -3,3 +3,4 @@ Laboratorio 02 del curso de Desarrollo de Software de la Universidad Nacional de
 # Integrantes:
   - Rodrigo Mechan : 20160496I
   - Alesandra Yagi : 2016220F
+  - Victor Saravia : 20152248J
