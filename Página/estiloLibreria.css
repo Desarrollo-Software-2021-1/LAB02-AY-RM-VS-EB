@@ -28,10 +28,10 @@ header .logo{
     font-size: 2em;
     text-decoration: none;
     letter-spacing: 2px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
-head ul{
+header ul{
     position: relative;
     display: flex;
     justify-content: center;
@@ -49,3 +49,4 @@ header ul li a{
     text-decoration: none;
     margin: 0 15px;
 }
+
