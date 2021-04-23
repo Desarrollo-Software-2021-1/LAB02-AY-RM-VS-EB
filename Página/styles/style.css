@@ -7,8 +7,8 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 .contenedor {
-    margin-bottom: 100px;
-    background: #fff;
+  margin-bottom: 100px;
+  background: #fff;
 }
 
 .titulo {
@@ -17,42 +17,38 @@ body {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
-
 }
 
 /*HEADER*/
 
 header {
-  
   /* Chrome 10-25, Safari 5.1-6 */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+
   justify-content: center;
   text-align: center;
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  
 }
 .header-vermas {
-    background: #000;
-    color: #fff;
-    font-size: 2rem;
-    margin-top: 600px;
-    margin-right: 500px;
-    padding: 30px 100px
+  background: #000;
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 700px;
+  margin-right: 700px;
+  padding: 30px 80px;
 }
 
 .fondo {
-    background: url(../images/imagen2.jpg);
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-size: cover;
-
+  background: url(../images/imagen2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
 }
-.header-vermas  a {
-    text-decoration: none;
-    color: #fff;
+.header-vermas a {
+  text-decoration: none;
+  color: #fff;
 }
 .nav-container {
   display: flex;
@@ -60,7 +56,6 @@ header {
   padding: 20px;
   background: #000;
 }
-
 
 .nav-container > .nav-marca {
   color: #fff;
@@ -74,29 +69,36 @@ header {
 }
 .nav-menu {
   margin-right: 60px;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 .nav-menu > a {
-  
   text-decoration: none;
   color: #fff;
   margin-right: 40px;
   font-size: 2.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.nav-menu > a:hover {
+    background:grey;
+    color: #fff;
+    padding: 0 10px;
 }
 
 .imagen {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-.nav-bienvenida h2{
-    font-size: 6.5rem;
-    color: #000;
+.nav-bienvenida h2 {
+  font-size: 6.5rem;
+  color: #000;
 }
 
 .productos-estrella {
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 50px;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 50px;
 }
 
 nav > a {
@@ -138,7 +140,6 @@ header .textos-header {
   width: 100%;
 }
 
-
 /* GALERIA */
 
 .portafolio {
@@ -147,7 +148,7 @@ header .textos-header {
 
 .galeria-port {
   display: grid;
-  grid-template-columns: repeat(4,auto);
+  grid-template-columns: repeat(4, auto);
   padding: 100px;
   grid-gap: 50px;
   min-height: 100%;
@@ -157,7 +158,7 @@ header .textos-header {
 .imagen-port {
   width: 100%;
   margin-bottom: 10px;
-    background: blue;
+  background: blue;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -177,7 +178,7 @@ header .textos-header {
   height: 100%;
   top: 0;
   transform: scale(0);
-  background: #A1FB0E;
+  background: #a1fb0e;
   transition: transform 0.5s;
   display: flex;
   justify-content: center;
@@ -206,7 +207,7 @@ header .textos-header {
 }
 
 .cards .card {
-  background: #A1FB0E;
+  background: #a1fb0e;
   display: flex;
   width: 46%;
   height: 200px;
@@ -238,7 +239,6 @@ header .textos-header {
   padding-top: 5px;
   color: #000;
 }
-
 
 /* FOOTER */
 
@@ -278,9 +278,8 @@ footer {
 
 @media screen and (max-width: 900px) {
   header {
-    
-    background-size:contain;
-    
+    background-size: contain;
+
     background-repeat: no-repeat;
   }
 
@@ -288,14 +287,14 @@ footer {
     color: #fff;
     font-size: 30px;
     margin: 0;
-   }
+  }
 
-   .nav-menu {
+  .nav-menu {
     margin-right: 60px;
-    margin-top: 40px;  
+    margin-top: 40px;
   }
   .nav-menu > a {
-      justify-content: center;
+    justify-content: center;
     text-decoration: none;
     color: #fff;
     margin-right: 40px;
@@ -305,7 +304,7 @@ footer {
   .imagen {
     margin-left: 20px;
     width: 100px;
-}
+  }
 
   .contenedor-sobre-nosotros {
     flex-direction: column;
@@ -324,7 +323,10 @@ footer {
 
   /* GALERIA */
   .imagen-port {
-    width: 44%;
+   
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* CLIENTE */
@@ -369,7 +371,7 @@ footer {
   }
 
   .nav-container > .nav-marca {
-   color: #fff;
+    color: #fff;
   }
   .textos-header h1 {
     font-size: 35px;
