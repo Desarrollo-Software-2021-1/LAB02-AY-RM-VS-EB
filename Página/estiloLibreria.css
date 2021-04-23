@@ -9,7 +9,7 @@
 
 body{
     background: whitesmoke;
-    min-height: 300vh;
+    min-height: 200vh;
 }
 
 /*Cabecera*/
@@ -29,7 +29,7 @@ header .logo{
     position: relative;
     font-weight: 900;
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -47,11 +47,17 @@ header ul li{
     list-style: none;
 }
 
+header ul li:hover{
+    background:grey;
+    color: grey;
+}
+
 header ul li a{
     position: relative;
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-size: 20px;
 }
 
 /*Barra de redes sociales*/
@@ -93,7 +99,20 @@ nav li a span{
     display: none;
 }
 
+nav li a:hover{
+    background: lightgray;
+}
+
 /*Productos*/
+.parallax{
+    background-image: url('../img-library/Fondo.jpg');
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .deals-container{
     margin: 50px 50px 50px 5%;
     width: 90%;
@@ -106,7 +125,7 @@ nav li a span{
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 10px;
-    color: violet;
+    color: white;
     background: rgba(0,0,0,0.5);
 }
 
@@ -138,10 +157,15 @@ nav li a span{
 
 .buynow-btn{
     border:1px solid #184d47;
-    background: #184d47;
+    background: black;
     padding: 5px 15px;
     border-radius: 20px;
     font-weight: bold;
     margin-top:10px;
     color:white;
+}
+
+.buynow-btn:hover{
+    border:1px solid grey;
+    box-shadow: 0 0 10px 5px grey;
 }
