@@ -23,16 +23,15 @@ body {
 /*HEADER*/
 
 header {
-  background: url(../images/imagen2.jpg);
+  
   /* Chrome 10-25, Safari 5.1-6 */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size:cover;
+  
   justify-content: center;
   text-align: center;
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  
   
 }
 .header-vermas {
@@ -44,6 +43,13 @@ header {
     padding: 30px 100px
 }
 
+.fondo {
+    background: url(../images/imagen2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-size: cover;
+
+}
 .header-vermas  a {
     text-decoration: none;
     color: #fff;
@@ -54,6 +60,7 @@ header {
   padding: 20px;
   background: #000;
 }
+
 
 .nav-container > .nav-marca {
   color: #fff;
@@ -75,6 +82,21 @@ header {
   color: #fff;
   margin-right: 40px;
   font-size: 2.5rem;
+}
+
+.imagen {
+    margin-left: 20px;
+}
+
+.nav-bienvenida h2{
+    font-size: 6.5rem;
+    color: #000;
+}
+
+.productos-estrella {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 50px;
 }
 
 nav > a {
@@ -209,10 +231,12 @@ header .textos-header {
 }
 .cards .card > .contenido-texto-card h4 {
   font-size: 20px;
+  color: #000;
 }
 .cards .card > .contenido-texto-card p {
   font-weight: 300;
   padding-top: 5px;
+  color: #000;
 }
 
 
@@ -254,8 +278,35 @@ footer {
 
 @media screen and (max-width: 900px) {
   header {
-    background-position: center;
+    
+    background-size:contain;
+    
+    background-repeat: no-repeat;
   }
+
+  .nav-container > .nav-marca {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+   }
+
+   .nav-menu {
+    margin-right: 60px;
+    margin-top: 40px;  
+  }
+  .nav-menu > a {
+      justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 2rem;
+  }
+
+  .imagen {
+    margin-left: 20px;
+    width: 100px;
+}
+
   .contenedor-sobre-nosotros {
     flex-direction: column;
     justify-content: center;
@@ -317,6 +368,9 @@ footer {
     padding: 30px 0 0 0;
   }
 
+  .nav-container > .nav-marca {
+   color: #fff;
+  }
   .textos-header h1 {
     font-size: 35px;
   }
