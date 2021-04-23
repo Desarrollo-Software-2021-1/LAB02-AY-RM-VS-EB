@@ -12,8 +12,8 @@ body {
 }
 
 .titulo {
-  color: #642a73;
-  font-size: 30px;
+  color: #000;
+  font-size: 100px;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -23,11 +23,30 @@ body {
 /*HEADER*/
 
 header {
-  background: url(../images/imagen.jpg);
+  background: url(../images/imagen2.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
+  background-size:cover;
+  justify-content: center;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
   
+  
+}
+.header-vermas {
+    background: #000;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 600px;
+    margin-right: 500px;
+    padding: 30px 100px
+}
+
+.header-vermas  a {
+    text-decoration: none;
+    color: #fff;
 }
 .nav-container {
   display: flex;
@@ -136,7 +155,7 @@ header .textos-header {
   height: 100%;
   top: 0;
   transform: scale(0);
-  background: hsla(273, 91%, 27%, 0.7);
+  background: #A1FB0E;
   transition: transform 0.5s;
   display: flex;
   justify-content: center;
@@ -165,7 +184,7 @@ header .textos-header {
 }
 
 .cards .card {
-  background: #4d0686;
+  background: #A1FB0E;
   display: flex;
   width: 46%;
   height: 200px;
