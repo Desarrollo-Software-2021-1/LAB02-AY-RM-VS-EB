@@ -75,7 +75,7 @@ section div .seccion-titulo{
     text-align: center;
     padding: 40px;
     color: white;
-    background-color: blue;
+    background-color: purple;
 }
 section .contenedor-seccion .seccion-catalogo{
     display: flex;
@@ -85,19 +85,28 @@ section .contenedor-seccion .seccion-catalogo{
 section .contenedor-seccion .seccion-catalogo .elementos{
     margin-bottom: 20px;
     cursor: pointer;
-    background-color: grey;
-    border: 5px solid yellowgreen;
-    border-radius: 30px;
+    background-color: lightgreen;
+    border: 10px dotted brown;
     padding: 50px;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     animation-name: example;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;
 
 }
+@keyframes example {
+    from {
+        margin-left: 100%;
+        
+    }
+
+    to {
+        margin-left: 0%;
+        
+    }
+  }
 
 section .contenedor-seccion .seccion-catalogo .elementos img {
     width: 200px;
