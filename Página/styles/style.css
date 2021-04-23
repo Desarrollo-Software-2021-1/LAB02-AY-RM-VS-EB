@@ -41,7 +41,7 @@ header {
 }
 
 .fondo {
-  background: url(../images/imagen2.jpg);
+  background: url(../../images/imagen2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-size: cover;
